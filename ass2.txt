@@ -1,0 +1,47 @@
+Hz:
+Hertz is often used to express the clock speed or clock frequency of a computer's central processing unit (CPU) or the speed of electronic signals in various components. 
+Kilo-, Mega-, Giga-, Tera- (byte, Hz, etc):
+1 kilobyte (KB) = 2^10bytes
+1 kilohertz (kHz) = 1,000 hertz
+1 megabyte (MB) = 2^20 bytes
+1 megahertz (MHz) = 1,000,000 hertz
+1 gigabyte (GB) =  2^30bytes
+1 gigahertz (GHz) = 1,000,000,000 hertz
+1 terabyte (TB) =2^40  bytes
+1 terahertz (THz) = 1,000,000,000,000 hertz
+elf (in terms of Unix programs):
+ It is used to represent executable files, object code, shared libraries, and other program-related files. ELF files contain machine code instructions and necessary information for program execution and management.
+Thrashing: 
+When processes exeeds available phyical  memory, the system will constantly be paging.
+Virtual
+oMemory：array of bytes, one must specify an address to access data stored there
+Address Space: range of memory available for a program or application, which has two types: Physical Address Space and Virtual Address Space. OS can maps onto physical address space.
+oAddress: identify specific location in memory or storage, which is used to access data.
+oMachine: OS takes physical resource and transfer it into a more general, easy to use virtuak form of itself.allowing multiple operating systems to coexist and run simultaneously on the same physical server.
+Time Sharing: a technique used by an OS to share resource, allowing the resource to be used for a while by ont entity, and then a while by another.
+Digital (Discrete) vs Analog:
+Digital: Offers high precision due to discrete values.Suitable for long-term storage and efficient processing. 
+Analog:Represents data using continuous and varying values.Offers high precision with continuous values.
+Kernel vs OS: 
+oKernal is the core component of an operating system and hard to access. Handle low level process. It is a relatively small and critical part of the entire operating system.
+Von Neumann: John von Neumann played a pivotal role in developing the concept of the von Neumann architecture, which forms the foundation of most modern computers
+Integrated Circuit (IC): a tiny semiconductor chip that combines numerous electronic components and circuit elements. ICs are used in various electronic devices, making them smaller, more efficient, and reliable. They come in digital, analog, and mixed-signal types and play a crucial role in modern technology.
+State Machine (FSA):A Finite State Machine (FSM) is a computational model used to describe systems or processes with a finite number of states and transitions between them. It defines how a system responds to inputs or events by transitioning between these states. 
+Hardware (or program) privilege level: a permission system in computer architecture that distinguishes between different levels of access rights for running code or programs. Typically, it includes user-level (user mode) and kernel-level (kernel mode) privileges.
+Context Switch: the process of saving the current state of a running process or thread, including its program counter, registers, and other relevant information, so that another process or thread can be scheduled and executed on the CPU. 
+Lazy loading (of program, of memory, etc): is a strategy used in computer programming and memory management to defer the loading or initialization of resources (such as data, programs, or memory) until they are actually needed. It aims to improve efficiency by minimizing unnecessary resource consumption upfront.
+PID - Process ID
+DMA - direct memory access:A mechanism in computer architecture that allows external devices to directly access data in computer memory without the intervention of a central processing unit (CPU).
+MMU / TLB:
+The MMU is the hardware component of the computer that handles the mapping between virtual and physical memory.
+It translates the virtual memory address used in the program into the actual physical memory address.
+MMU allows operating systems and applications to use virtual memory, which enables more efficient memory management and provides memory isolation.
+
+TLB (Translation Lookaside Buffer - Find buffer after conversion) :
+The TLB, which is part of the MMU, is a cache that stores recently executed virtual memory to physical memory address mappings.
+The purpose of TLB is to increase the speed of address translation because it can quickly find the most commonly used address maps in the cache without having to visit main memory every time.
+The size and performance of the TLB have an important impact on the efficiency and performance of memory access.
+Daemon: a background computer program or process that runs continuously without direct user interaction, performing tasks such as managing system services or providing network services. Daemons operate silently, typically without a graphical interface, and are essential for the smooth operation of many computer systems.
+Symbol (with respect to Code, object files, assembly): represents a named entity, such as a function, variable, or label, used to reference specific program elements. Symbols are crucial for linking, debugging, and making code more human-readable and manageable. 
+Shared Library:
+A shared library is a collection of reusable code and functions that multiple programs can use simultaneously. It promotes code reusability, efficient memory usage, and simplified updates, making it a valuable component in software development.
